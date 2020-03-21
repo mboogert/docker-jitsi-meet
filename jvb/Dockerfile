@@ -6,6 +6,6 @@ RUN \
 	apt-dpkg-wrap apt-get install -y jitsi-videobridge && \
 	apt-cleanup
 
-COPY rootfs/ /
+COPY jvb/rootfs/ /
 
 VOLUME /config
